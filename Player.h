@@ -14,8 +14,10 @@ class Player{
 
     public : 
 
+        void AjoutScore();
         void PireScore();
         void MeilleurScore();
         void Moyenne();
         std::string EntrerNom();
 };
+

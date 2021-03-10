@@ -32,12 +32,12 @@ void Player::NombreMusique(){
 }
 
 void Player::PireScore(){
-    cout << _pire_score << endl;
+    cout << "Votre pire score est de " + _pire_score << endl;
 
 }
 
 void Player::MeilleurScore(){
-    cout << _meilleur_score << endl;
+    cout << "Votre meilleur score est de " + _meilleur_score << endl;
 
 }
 
@@ -45,7 +45,7 @@ void Player::Moyenne(){
     if (_nombre_musique > 0)
         _moyenne = _scoreM1 + _scoreM2 + _scoreM3 + _scoreM4 + _scoreM5;
         _moyenne = _moyenne / _nombre_musique;
-        cout << _moyenne << endl;
+        cout << "Votre moyenne est de " + _moyenne << endl;
 
 }
 

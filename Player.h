@@ -8,6 +8,7 @@ class Player{
         int _score_obtenu;
         int _score_precedent;
         int _score;
+        int _nombre_musique;
         int _meilleur_score;
         int _pire_score;
         int _moyenne;
@@ -25,6 +26,7 @@ class Player{
         void MeilleurScore();
         void ChangementScore();
         void Moyenne();
+        void NombreMusique();
         std::string EntrerNom();
 };
 

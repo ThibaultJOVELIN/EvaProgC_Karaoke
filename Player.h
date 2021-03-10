@@ -6,7 +6,7 @@ class Player{
 
         std::string NomJoueur;
         int _score_obtenu;
-        int _score_précédent;
+        int _score_precedent;
         int _score;
         int _meilleur_score;
         int _pire_score;
@@ -23,6 +23,7 @@ class Player{
         void AjoutScore();
         void PireScore();
         void MeilleurScore();
+        void ChangementScore();
         void Moyenne();
         std::string EntrerNom();
 };

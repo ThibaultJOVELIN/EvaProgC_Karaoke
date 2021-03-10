@@ -37,6 +37,19 @@ void Player::PireScore(){
 }
 
 void Player::MeilleurScore(){
+    _meilleur_score = _scoreM1;
+    if (_scoreM2 > _meilleur_score)
+        _meilleur_score = _scoreM2;
+
+    if (_scoreM3 > _meilleur_score)
+        _meilleur_score = _scoreM3;
+
+    if (_scoreM4 > _meilleur_score)
+        _meilleur_score = _scoreM4;
+
+    if (_scoreM5 > _meilleur_score)
+        _meilleur_score = _scoreM5;
+
     cout << "Votre meilleur score est de " + _meilleur_score << endl;
 
 }

@@ -11,6 +11,12 @@ class Player{
         int _meilleur_score;
         int _pire_score;
         int _moyenne;
+        int _scoreM1;
+        int _scoreM2;
+        int _scoreM3;
+        int _scoreM4;
+        int _scoreM5;
+
 
     public : 
 
